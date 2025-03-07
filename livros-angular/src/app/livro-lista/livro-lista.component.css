@@ -1,0 +1,80 @@
+.page-title {
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 170px;
+  color: #222222;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.table thead tr th {
+  background-color: #000;
+  color: #d3d3d3;
+  padding: 8px;
+  text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.table td:nth-child(1), .table th:nth-child(1) {
+  width: 20%;
+}
+
+.table td:nth-child(3), .table th:nth-child(3) {
+  width: 15%;
+}
+
+.table td:nth-child(4), .table th:nth-child(4) {
+  width: 15%;
+}
+
+.table td:nth-child(2) {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 300px;
+}
+
+.btn-excluir {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: block;
+}
+
+.btn-excluir:hover {
+  background-color: #c9302c;
+  color: white;
+  transform: scale(1.05);
+}
